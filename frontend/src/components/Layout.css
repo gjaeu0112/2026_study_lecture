@@ -1,0 +1,165 @@
+.layout {
+  min-height: 100vh;
+  background: #f5f7fb;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1f2937;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: #4b5563;
+  text-decoration: none;
+}
+
+.nav a.active {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.auth-area {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.auth-area a,
+.auth-area button {
+  text-decoration: none;
+  color: #374151;
+}
+
+.auth-area button {
+  border: 1px solid #d1d5db;
+  background: #fff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: #2563eb !important;
+  color: #fff !important;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+}
+
+.user-name {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.page-loading {
+  padding: 2rem;
+  text-align: center;
+}
+
+.page-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.page-title {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+}
+
+.page-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-item {
+  border-bottom: 1px solid #eef2f7;
+  padding: 1rem 0;
+}
+
+.post-item:last-child {
+  border-bottom: none;
+}
+
+.post-item a {
+  color: #111827;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.post-meta {
+  margin-top: 0.35rem;
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.form-narrow {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.comment-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+.comment-item {
+  border-top: 1px solid #eef2f7;
+  padding: 0.75rem 0;
+}
+
+.comment-meta {
+  font-size: 0.8rem;
+  color: #6b7280;
+  margin-bottom: 0.25rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.stat-card {
+  background: #eff6ff;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.stat-card strong {
+  display: block;
+  font-size: 1.5rem;
+  color: #1d4ed8;
+}

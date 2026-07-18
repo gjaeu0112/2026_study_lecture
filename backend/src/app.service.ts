@@ -3,7 +3,7 @@ import { InjectDataSource } from '@nestjs/typeorm';
 import { DataSource } from 'typeorm';
 
 // 수강생 구재우 작업 영역
-const currentWorker = "구재우_";
+const currentWorker = "구재우";
 
 @Injectable()
 export class AppService {
